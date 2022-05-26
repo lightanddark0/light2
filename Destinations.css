@@ -1,0 +1,44 @@
+#banner h1 {
+    position: absolute;
+    top:10vw;
+    left:5vw;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 8vw;
+    color:rgb(255, 255, 255);
+}
+#main {
+    background-color: rgb(255, 255, 255);
+}
+h3 {
+    padding-top:1em;
+    font-size:4em;
+    text-align: center;
+
+}
+p {
+    font-size:2em;
+}
+ul li {
+    font-size: 2em;
+
+}
+.box div :nth-child(2) {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 0%;
+}
+@media screen and (min-width: 992px) {
+.box img {
+    width: 50%;
+    height: 40%;
+}
+
+.col-lg-6 {
+    width:50%;
+}
+.box div ul :nth-child(2) {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 0%;
+}
+}

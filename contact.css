@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    font-size:3em;
+}
+h3 {
+    margin: 10px 3vw;
+    font-size:2.2em;
+}
+box p {
+    margin:0px;
+}
+#div3 p {
+    margin:0px;
+       
+}
+.box div :nth-child(2) {
+    margin:0px;
+   
+}
+.box div p {
+    font-size:2em;
+    padding:0vw;
+}

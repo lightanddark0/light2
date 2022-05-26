@@ -1,0 +1,38 @@
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    * {
+        text-decoration: none;
+        list-style-type: none;
+        box-sizing: border-box;
+      }
+      
+    .col-md-12 {width: 100%;}
+    [class*="col-"] {
+        float: left;
+    }
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .box div :nth-child(2) {
+        margin-top: 0%;
+        margin-bottom: 0%;   
+        padding-top: 0%;
+    }    
+    .box img {
+        width: 100%;
+    }
+    .box {
+        padding-left: 0%;
+    }
+    .contact {
+        width: 50%;
+        height:35%;
+        padding:5%;
+    }
+    .contact img {
+        text-align: center;
+        width:50%;
+        height:auto;
+    }
+}
